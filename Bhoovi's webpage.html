@@ -1,0 +1,31 @@
+
+<!-- saved from url=(0101)file:///C:/Users/Deepak%20Kumar/AppData/Local/Microsoft/Windows/INetCache/IE/OPU6WM3V/bhoovi1[1].html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>Bhoovi's webpage</title>
+        <script>
+            function check()
+            {
+                a=document.getElementById("t").value;
+                if(a=="Bhoovii")
+            {
+                  document.getElementById("res").textContent=("");
+                  document.getElementById("pic").style.display="block";
+            }
+            else
+            {
+                  document.getElementById("res").textContent=("you are wrongg");
+                  document.getElementById("pic").style.display="none";
+            }
+            }
+        </script>
+    </head>
+    <body>
+        <p>Enter text:</p>
+        <input type="text" id="t">
+        <br>
+         <button onclick="check()">Go</button>
+         <br>
+         <br>
+         <div id="pic" style="display: none;"><img src="./sb3.jpg" height="300" width="300"></div>
+          <p id="res"></p>
+    </body></html>
